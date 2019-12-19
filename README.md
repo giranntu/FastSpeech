@@ -32,7 +32,7 @@ The Implementation of FastSpeech Based on Pytorch.
 
 `docker pull nvcr.io/nvidia/pytorch:19.06-py3`
 
-2.Then docker run, make sure you have docker and NVIDIA-docker2 and so on...
+2.Then docker run, make sure you have docker and NVIDIA-docker2 and so on... (would update detail if required)
 
 `NV_GPU=0,1,2,3 nvidia-docker run -it -v /raid/ryan/ryancode:/mnt -p 5771:8888 --name "pytorch_fasterVC"  -p 7412:6006 nvcr.io/nvidia/pytorch:19.06-py3`
 
