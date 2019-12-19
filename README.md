@@ -29,6 +29,7 @@ The Implementation of FastSpeech Based on Pytorch.
 - matplotlib 2.2.2
 
 `conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch`
+
 `pip install -r requirement.txt`
 
 ### Prepare Dataset
