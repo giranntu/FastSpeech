@@ -28,7 +28,15 @@ The Implementation of FastSpeech Based on Pytorch.
 - inflect 2.1.0
 - matplotlib 2.2.2
 
-`conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch`
+1.Using the NGC(NVIDIA Docker Image)
+
+`docker pull nvcr.io/nvidia/pytorch:19.06-py3`
+
+2.Then docker run, make sure you have docker and NVIDIA-docker2 and so on...
+
+`NV_GPU=0,1,2,3 nvidia-docker run -it -v /raid/ryan/ryancode:/mnt -p 5771:8888 --name "pytorch_fasterVC"  -p 7412:6006 nvcr.io/nvidia/pytorch:19.06-py3`
+
+3. Install the requirement.
 
 `pip install -r requirement.txt`
 
