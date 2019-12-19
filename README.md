@@ -40,6 +40,8 @@ The Implementation of FastSpeech Based on Pytorch.
 
 `pip install -r requirement.txt`
 
+`pip install --upgrade jupyterlab`
+
 4. Launch the Jupyter Lab. 
 
 `jupyter lab --ip=0.0.0.0 --no-browser --NotebookApp.token='' --allow-root --NotebookApp.allow_origin='*' --notebook-dir='/';`
