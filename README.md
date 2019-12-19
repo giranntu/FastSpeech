@@ -40,6 +40,11 @@ The Implementation of FastSpeech Based on Pytorch.
 
 `pip install -r requirement.txt`
 
+4. Launch the Jupyter Lab. 
+
+`jupyter lab --ip=0.0.0.0 --no-browser --NotebookApp.token='' --allow-root --NotebookApp.allow_origin='*' --notebook-dir='/';`
+
+
 ### Prepare Dataset
 1. Download and extract [LJSpeech dataset](https://keithito.com/LJ-Speech-Dataset/).
 2. Put LJSpeech dataset in `data`.
