@@ -58,7 +58,12 @@ The Implementation of FastSpeech Based on Pytorch.
 Run `python train.py`.
 
 ## Test
-Run `python synthesis.py`.
+
+Run `python synthesis.py -t "<GIVEN SENTENCE>"`
+Run `python synthesis.py -t "hello world, make the world the better place."`
+Run `python synthesis.py -t "Roses are red, violets are blue. Whatevery I am writing. Damn. I have no clue."`
+
+
 
 ## Pretrained Model
 - Baidu: [Step:112000](https://pan.baidu.com/s/1by3-8t3A6uihK8K9IFZ7rg) Enter Code: xpk7
